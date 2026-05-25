@@ -19,7 +19,7 @@ jobs:
       - name: Generate heatmap
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          ORG_NAME: shb-aidev-ais
+          ORG_NAME: JOINUS-WORLD
         run: python scripts/generate_heatmap.py
       - name: Commit & Push
         run: |
