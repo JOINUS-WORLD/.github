@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779726077758,
+  "projectRoot": "/app/poc/github_lobby_join_us",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "profile": {
+      "path": "profile",
+      "purpose": null,
+      "fileCount": 14,
+      "lastAccessed": 1779726077744,
+      "keyFiles": [
+        "README.md",
+        "file_history.svg",
+        "heatmap.svg",
+        "heatmap_1m.svg",
+        "heatmap_1m_dark.svg"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 3,
+      "lastAccessed": 1779726077745,
+      "keyFiles": [
+        "generate_heatmap.py",
+        "heatmap_cache.json",
+        "repo_file_cache.json"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "profile/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1779726121840,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
