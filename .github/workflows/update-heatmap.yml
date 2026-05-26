@@ -2,7 +2,8 @@ name: Update Org Activity Heatmap
 
 on:
   schedule:
-    - cron: '17 */3 * * *'
+    # 한국시간(KST, UTC+9) 매일 08:00 = UTC 23:00
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
